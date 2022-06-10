@@ -17,7 +17,7 @@ server.use('/api/register', registerRouter)
 //Post
 server.use('/api/login', loginRouter)
 
-server.get('/api/users',(req,res)=>{
+server.get('/',(req,res)=>{
     res.send("<h1>Welcome user</h1>")
 })
 
