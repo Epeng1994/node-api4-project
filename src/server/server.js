@@ -18,7 +18,7 @@ server.use('/api/register', registerRouter)
 server.use('/api/login', loginRouter)
 
 server.get('/',(req,res)=>{
-    res.send("<h1>Welcome user</h1>")
+    res.send("<h1>Welcome user, feel free to login or register</h1>")
 })
 
 module.exports = server
