@@ -17,4 +17,8 @@ server.use('/api/register', registerRouter)
 //Post
 server.use('/api/login', loginRouter)
 
+server.get('/api/users',()=>{
+    "<h1>Welcome user</h1>"
+})
+
 module.exports = server
